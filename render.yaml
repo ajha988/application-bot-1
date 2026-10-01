@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: application-bot
+    runtime: docker
+    plan: standard
+    healthCheckPath: /api/health
+    disk:
+      name: application-data
+      mountPath: /data
+      sizeGB: 2
+    envVars:
+      - key: API_TOKEN
+        generateValue: true
+      - key: APP_ENV
+        value: production
+      - key: DATA_DIR
+        value: /data
+      - key: REMOTE_DESKTOP_ENABLED
+        value: "true"
+      - key: DESKTOP_SECURE_COOKIE
+        value: "true"
+      - key: BROWSER_ENABLED
+        value: "false"
+      - key: ALLOWED_APPLICATION_HOSTS
+        value: boards.greenhouse.io,job-boards.greenhouse.io,jobs.lever.co

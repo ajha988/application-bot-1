@@ -1,0 +1,11 @@
+{
+  "name": "Sample Candidate",
+  "email": "candidate@example.com",
+  "phone": "+10000000000",
+  "location": "Sample City",
+  "summary": "Software engineer with experience building APIs and internal tools.",
+  "skills": ["Python", "SQL", "FastAPI", "React", "risk analysis"],
+  "experience": [{"company": "Example Company", "title": "Software Engineer", "dates": "2022–2025", "bullets": ["Built Python APIs for internal reporting.", "Maintained SQL queries and reporting workflows.", "Collaborated with teams on risk analysis."]}],
+  "education": ["Example degree — Example University"],
+  "answers": {}
+}

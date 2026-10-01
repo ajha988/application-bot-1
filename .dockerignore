@@ -1,0 +1,11 @@
+.env
+.venv
+data
+.test-run*
+.browser-temp
+.pytest_cache
+**/__pycache__
+frontend/node_modules
+frontend/dist
+*.png
+.git

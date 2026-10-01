@@ -1,0 +1,5 @@
+{"jobs": [
+  {"company": "Northstar Demo", "role": "Backend Engineer", "url": "https://example.com/jobs/backend", "location": "Remote", "jd": "Build Python FastAPI APIs using SQL. Collaborate on reporting and risk analysis.", "source": "sample"},
+  {"company": "Orbit Demo", "role": "Full Stack Engineer", "url": "https://example.com/jobs/fullstack", "location": "Sample City", "jd": "Develop React dashboards and Python services. SQL and TypeScript required.", "source": "sample"},
+  {"company": "Harbor Demo", "role": "Risk Analyst", "url": "https://example.com/jobs/risk", "location": "Hybrid", "jd": "Risk analysis, SQL reporting, audit and compliance experience.", "source": "sample"}
+]}
